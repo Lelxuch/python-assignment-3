@@ -91,9 +91,9 @@ db.create_all()
 
 testUser1 = User(login='testUser1', password='password', token='')
 testUser2 = User(login='testUser2', password='password', token='')
-testUser3 = User(login='testUser1', password='password', token='')
-testUser4 = User(login='testUser2', password='password', token='')
-testUser5 = User(login='testUser1', password='password', token='')
+testUser3 = User(login='testUser3', password='password', token='')
+testUser4 = User(login='testUser4', password='password', token='')
+testUser5 = User(login='testUser5', password='password', token='')
 
 db.session.add(testUser1)
 db.session.add(testUser2)
