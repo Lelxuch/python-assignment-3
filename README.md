@@ -21,3 +21,14 @@ Go to src folder and open main.py. First you need to do is to set your password 
 cd src
 python3 main.py
 ```
+
+## Examples
+
+### Case when jwt token is right
+
+It returns "Hello, token which is provided is correct [your_token]"
+
+### Case when jwt token is wrong
+
+
+It returns "Hello, Could not verify the token"
