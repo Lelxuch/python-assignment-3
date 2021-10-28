@@ -30,8 +30,6 @@ def login():
                                  {'WWW-Authenticate': 'Basic realm="Login required'
                                  })
 
-        userLogin = \
-            User.query.filter_by(login=auth.username).first().login
         userPass = \
             User.query.filter_by(login=auth.username).first().password
 
