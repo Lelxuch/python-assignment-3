@@ -15,7 +15,7 @@ pip install pyjwt
 
 ## Usage
 
-Go to src folder and open main.py. First you need to do is to set your password for pgAdmin instead of root in app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:root@localhost/pythonPractice'
+Go to src folder and open main.py. First you need to do is to set your password for pgAdmin instead of root, and database name instead of pythonPractice in app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:root@localhost/pythonPractice'
 
 ```bash
 cd src
